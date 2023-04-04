@@ -1,0 +1,13 @@
+#!/usr/bin/env sh
+
+alt - return : "kitty"
+
+shift + alt - f : yabai -m window --toggle native-fullscreen
+
+ctrl - h : yabai -m window --move rel:-25:0
+ctrl - j : yabai -m window -move	rel:0:-25
+ctrl - k : yabai -m window --move rel:0:25
+ctrl - l : yabai -m window --move rel:25:0
+
+ctrl - t: yabai -m window --grid 2:4:0:1:2:-1
+ctrl - f: yabai -m window --grid 1:1:1:1:1:1

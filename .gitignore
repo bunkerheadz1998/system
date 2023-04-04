@@ -1,0 +1,7 @@
+.config/zsh/*
+!.config/zsh/.zshrc
+.config/sanity/config.json
+.config/stripe/config.toml
+node_modules
+.DS_Store
+
